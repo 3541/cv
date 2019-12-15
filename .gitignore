@@ -1,3 +1,7 @@
 *.pdf
-cv.log
-cv.synctex.gz
+*.log
+*.synctex.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
