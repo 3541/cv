@@ -15,6 +15,21 @@
 \begin{document}
 \textbf{Computer Science student with experience in IT and software development
   and a passion for robust and well-engineered systems.}
+\section{Education}
+\story{Bachelor of Science/Master of Data Science (Graduate Degree
+  Package)}{The University of Melbourne}{2020--2022}{Second Year}{Majoring in Computing and
+  Software Systems. Maintaining an average grade of \textit{First-Class Honours}. Relevant subjects
+  include \textit{Algorithms and Data Structures} and \textit{Object Oriented Software Development}.}
+\story{Mathematics Extension (MTH1040)}{Monash University}{2019}{}{Achieved a \textit{High Distinction} average.}
+\story{VCE}{John Monash Science School}{2018--2019}{}{
+    \begin{missions}
+    \item ATAR: 99.1
+    \item Achieved academic excellence awards in Algorithmics, Physics, Literature, and Mathematics Extension
+    \item \href{https://beamlineforschools.cern/}{CERN Beamline for Schools competition} -- \textit{\href{https://beamline-for-schools.web.cern.ch/sites/beamline-for-schools.web.cern.ch/files/BL4S_shortlisted_teams_2019.pdf}{Shortlisted}, see projects}
+    \item Debate team captain
+    \item Debaters Association of Victoria -- \textit{Swannie Award} (best speaker in region)
+    \end{missions}
+}
 \section{Skills}
 \begin{skills}{Computing}
     \skill[Fundamentals]{Deep understanding of hardware and software
@@ -22,12 +37,12 @@
       systems implementation.}
     \skill[Programming]{Experience in a variety of languages and paradigms,
       including object-oriented and functional practices. Most fluent with
-      Rust and C/C\ensuremath{+}\ensuremath{+}, with working knowledge of
-      Python, TypeScript, Java, Go, x86\_64 assembly, \LaTeX, and others. Very
+      Rust, C, and C\ensuremath{+}\ensuremath{+}, with working knowledge of
+      Java, Python, Go, JavaScript, x86\_64 assembly, and others. Very
       capable of learning on the fly and picking up new technologies quickly.}
     \skill[Security]{Understanding of security best-practices and fundamentals
       with common services (e.g., Apache and nginx), with experience in
-      implementation of real systems. Experience in the theory of software exploitation, and binary reverse engineering with the Ghidra software.}
+      implementation of real systems.}
     \skill[Operations]{Experience both in a personal and professional context
       with the administration and maintenance of common enterprise technologies,
       including Active Directory, Open Directory, Profile Manager, and Unix-descended systems (Linux and FreeBSD in particular).}
@@ -44,28 +59,17 @@
     \skill[Compilers]{Presently designing and implementing a rudimentary C compiler. \textit{(see projects)}}
     \skill[Physics]{Deep interest in the field, particularly in particle physics, astrophysics, and cosmology.}
 \end{skills}
-\section{Education}
-\story{Bachelor of Science/Master of Data Science (Graduate Degree
-  Package)}{The University of Melbourne}{2020--2022}{}{Majoring in Computing and
-  Software Systems. Maintaining an average grade of \textit{First-Class Honours}.}
-\story{Mathematics Extension (MTH1040)}{Monash University}{2019}{}{Achieved a \textit{High Distinction} average.}
-\story{VCE}{John Monash Science School}{2018--2019}{}{
-    \begin{missions}
-    \item ATAR: 99.1
-    \item Achieved academic excellence awards in Algorithmics, Physics, Literature, and Mathematics Extension
-    \item \href{https://beamlineforschools.cern/}{CERN Beamline for Schools competition} -- \textit{\href{https://beamline-for-schools.web.cern.ch/sites/beamline-for-schools.web.cern.ch/files/BL4S_shortlisted_teams_2019.pdf}{Shortlisted}, see projects}
-    \item Debate team captain
-    \item Debaters Association of Victoria -- \textit{Swannie Award} (best speaker in region)
-    \end{missions}
-}
 \section{Experience}
 References available upon request.
 \story{Software Developer (Contract)}{Embedthis
-  Software}{2020}{Embedded\\Web\\Security}{Backported security fixes and
-  modernized code to create version 2.2 of the GoAhead embedded web
-  server. This involved both security research and significant code cleanup to
-  bring a legacy codebase up to modern standards, all while maintaining
-  compatibility and stability for existing customer applications.}
+  Software}{2020}{Embedded\\Web\\Security}{
+  Delivered version 2.2 of the GoAhead embedded web server:
+  \begin{missions}
+    \item Modernized and cleaned up the codebase, backporting and implementing significant security
+      fixes, including seven CVEs.
+    \item Maintained API compatibility and stability for existing applications.
+  \end{missions}
+}
 \story{Waitstaff}{Royal Brighton Yacht Club}{2019}{Catering\\Customer Service}{Worked over summer and during school on a casual basis, developing useful experience in customer service and relations.}
 \story{IT Technician}{University Prep}{2016--2017}{IT\\Technical Support\\Systems Administration}{
     Worked two summers full-time in general IT and support, involving a variety of tasks in multiple areas of expertise, including:
@@ -79,9 +83,12 @@ References available upon request.
 \section{Projects}
 Names are hyperlinked to repository/reference.
 \story{\href{https://github.com/3541/short-circuit.git}{Short Circuit}}{Web
-  Server}{2020-present}{Servers\\HTTP}{A web server for Linux using
-  io\_uring. Capable of over \(100,000\) requests per second.}
-\story{\href{https://github.com/3541/3cc}{3cc}}{C Compiler}{2019-present}{Compilers\\Parsing}{A C compiler in Rust. Features a lexer and hand-written recursive descent parser. Currently implements most unary and binary operators and has early support for \texttt{int}-typed local variables.}
+  Server}{2020-present}{Servers\\HTTP}{A high-performance web server for Linux using
+  the new io\_uring asynchronous I/O interface.}
+\story{\href{https://github.com/3541/3cc}{3cc}}{C Compiler}{2019-2020}{Compilers\\Parsing}{A C
+  compiler in Rust. Features a lexer and hand-written recursive descent parser. Currently implements
+  most unary and binary operators and has early support for local variables. On the backburner,
+  pending a better re-implementation.}
 \story{\href{https://github.com/3541/syzygy}{Syzygy}}{Kernel}{2017--present}{Operating
   Systems\\Computer Architecture}{A kernel implemented in Rust,
   currently featuring physical and virtual memory
